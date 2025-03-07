@@ -3,6 +3,7 @@
     display: none;
   }
   &__button {
+    
     background-color: $color-white;
     width: 7rem;
     height: 7rem;
@@ -113,9 +114,10 @@
   //ICON
 
   &__icon {
-    margin-top: 3rem;
+    margin-top: 3.2rem;
     position: relative;
     transition: all 0.2s;
+    align-items: center;
     &,
     &::before,
     &::after {
@@ -134,10 +136,10 @@
     }
 
     &::after {
-      top: -0.8rem;
+      top: -1rem;
     }
     &::before {
-      top: 0.8rem;
+      top: 1rem;
     }
   }
 
